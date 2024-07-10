@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Search</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <div class="logo">PRODUCT</div>
+            <div class="search">
+                <input type="text" placeholder="Search Here..." id="productInput">
+                <button onclick="searchProduct()">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+            <div class="icons">
+                <button class="login"><i class="fa-solid fa-user"></i>Login | Sign Up</button>
+                <div class="card"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
+        </div>
+        <div class="loader">
+            <div id="loadingIndicator"></div>
+        </div>
+        <div id="results"></div>
+        <div class="midel-div">
+            <img src="img/logo design.png" alt="">
+            <h1>Save <p>Money</p>, Save <p>Faster</p></h1>
+            <p>Compare prices and get the best deal!</p>
+            <h5>Search Over 2 Million Products...</h5>
+        </div>
+        
+        
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
